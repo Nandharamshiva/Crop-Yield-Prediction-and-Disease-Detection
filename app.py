@@ -2,7 +2,7 @@ import gdown
 import os
 
 # Google Drive file ID (from your shared folder link)
-url = "https://drive.google.com/uc?id=1DGX10A0xa06CAtnFFmjcxd7Q6SPjYuzO&export=download"
+url = "https://drive.google.com/file/d/1dEtbZie8I45hR9wdmxXde_Gdy2lzHTG0/view?usp=sharing"
 output = "yield_model.pkl"
 
 # Download model if not already present
