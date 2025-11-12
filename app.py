@@ -1,3 +1,18 @@
+import gdown
+import os
+
+# Google Drive file ID (from your shared folder link)
+url = "https://drive.google.com/uc?id=1DGX10A0xa06CAtnFFmjcxd7Q6SPjYuzO&export=download"
+output = "yield_model.pkl"
+
+# Download model if not already present
+if not os.path.exists(output):
+    gdown.download(url, output, quiet=False)
+
+
+
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
